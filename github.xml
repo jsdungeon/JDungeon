@@ -1,0 +1,10 @@
+<application>
+  <component name="GithubAccounts">
+    <account id="bb6facb1-6401-4ffa-afac-28179134c09d" name="jsdungeon">
+      <server host="github.com" />
+    </account>
+  </component>
+  <component name="GithubSettings">
+    <option name="CLONE_GIT_USING_SSH" value="true" />
+  </component>
+</application>
