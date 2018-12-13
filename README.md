@@ -1,2 +1,0 @@
-# JDungeon
-The JAVA Dungeon
