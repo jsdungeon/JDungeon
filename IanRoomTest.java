@@ -33,7 +33,7 @@ public class IanRoomTest {
 
         else if  (direction.equals("South")){
 
-            System.out.println("Otherwise, do this ");
+            System.out.println("Otherwise, do this and run Room2 ");
         }
 
 
