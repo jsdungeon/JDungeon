@@ -31,9 +31,13 @@ public class IanRoomTest {
 
         }
 
-        else if  (direction.equals("South")){
+        if  (direction.equals("South")){
 
             System.out.println("Otherwise, do this and run Room2 ");
+        }
+
+        else {
+            System.out.println("Nothing happening - More to be added!");
         }
 
 
