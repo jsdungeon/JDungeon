@@ -10,12 +10,12 @@ public class IanRoomTest {
         Scanner input = new Scanner(System.in);
 
 
-        System.out.println("Enter a direction: ");
+        System.out.println("Enter a direction: "); //Ask for direction input from keyboard
         String direction = input.nextLine();
 
 
 
-        if (direction.equals("North")) {
+        if (direction.equals("North")) { //If they type "North", go to first room
 
             Room Room1 = new Room("First Room", "This is the first room", "Sword", "Shield ", "Spider");
 
@@ -31,12 +31,12 @@ public class IanRoomTest {
 
         }
 
-        if  (direction.equals("South")){
+        if  (direction.equals("South")){ //If they type "South", they would go to another room
 
             System.out.println("Otherwise, do this and run Room2 ");
         }
 
-        else {
+        else { //If not "North" or 'South" typed, something else will happen instead
             System.out.println("Nothing happening - More to be added!");
         }
 
